@@ -50,7 +50,7 @@ Order.belongsTo(user);
 user.hasMany(Order);
 Order.belongsToMany(Product, { through: OrderItem });
 
-db.sync() // sync({ force: true })
+db.sync({ force: true }) // sync({ force: true })
     .then((result) => {
         return user.findByPk(1)
     })
