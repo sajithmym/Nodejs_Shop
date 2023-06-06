@@ -1,14 +1,13 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "assignment",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "this my coding",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "start-server": "node app.js"
+    "test": "npm start",
+    "start" : "nodemon app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "sajithmym",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
