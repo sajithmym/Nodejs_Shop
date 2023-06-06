@@ -1,12 +1,27 @@
 {
-  "name": "assignment",
+  "name": "node-shop",
   "version": "1.0.0",
-  "description": "this my coding",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "npm start",
-    "start" : "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sajithmym",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajithmym/Nodejs_Shop.git"
+  },
+  "keywords": [],
+  "author": "Sajithmym",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajithmym/Nodejs_Shop/issues"
+  },
+  "homepage": "https://github.com/sajithmym/Nodejs_Shop#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.3",
+    "sequelize": "^6.32.0"
+  }
 }
