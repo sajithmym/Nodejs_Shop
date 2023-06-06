@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 40px;
+    width: 100vw;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    margin: 10px;
+    font-size: larger;
+}
+
+h1{
+    margin-top: 5%;
+    color: cadetblue;
+}
+
+form{
+    margin-top: 4%;
+}
+
+form input[type="text"]{
+    font-size: xx-large;
+    margin: 5px;
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+form input[type="submit"]{
+    font-size: large;
+    margin-top: 20px;
+    padding: 5px;
+    background: rgb(34, 2, 63);
+    color: white;
+    display: block;
+}
+
+.list{
+    margin-top: 5%;
+    background-color: rgb(48, 41, 58);
+    color: rgb(252, 255, 255);
+    font-size: larger;
+    width: max-content;
+    padding: 20px;
+    border-radius: 5px;
+}

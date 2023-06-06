@@ -1,0 +1,16 @@
+<%- include('Use/head.ejs') %>
+<%- include('Use/nav.ejs') %>
+
+<% if (mym.length > 0) { %>
+    <h1> Users List</h1>
+    <div class="list">
+        <% mym.forEach(element => { %>
+            <h3> <%= element.name %> </h3> 
+        <% }) %>
+    </div>
+
+<% } else { %>
+    <h1> No Users Found</h1>
+<% } %>
+
+<%- include('Use/end.ejs') %>
