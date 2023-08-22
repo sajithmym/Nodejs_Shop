@@ -2,7 +2,6 @@
 
 Deployed Link : https://node-shop-app.onrender.com/
 
-
 ![Screenshot (279)](https://github.com/sajithmym/Nodejs_Shop/assets/84276601/56f44bc6-499a-4963-83f0-f7ffb44e5d50)
 
 
